@@ -18,4 +18,4 @@ describe('User', () => {
         .then(user => user.authenticate('not ok'))
         .then(result => expect(result).to.be.false))
   })
-});
+})
